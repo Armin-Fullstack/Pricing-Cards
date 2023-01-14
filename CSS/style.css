@@ -749,6 +749,10 @@ video {
   display: none;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1608,6 +1612,11 @@ video {
   border-style: none;
 }
 
+.bg-grayColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 39 46 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
@@ -1777,11 +1786,6 @@ video {
 
 .align-super {
   vertical-align: super;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
