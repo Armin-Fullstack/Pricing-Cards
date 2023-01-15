@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
+    screens: {
+      md: "837px"
+    },
     extend: {
       fontFamily: {
         sans: ["Merriweather Sans" , "sans-serif"]

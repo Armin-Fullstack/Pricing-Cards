@@ -13,81 +13,235 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <title>Pricing Cards</title>
   </head>
-  <body class="bg-grayColor flex justify-center items-center h-screen">
+  <body class="bg-grayColor flex justify-center items-center min-h-screen">
+    
+    
+   <!-- Boxes Container -->
+   <div
+   class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 my-6 md:my-0"
+ >
+   <!-- Box Container 1 -->
+   <div class="bg-lightGray rounded-xl">
+     <!-- Top Section -->
+     <div
+       class="bg-slate-800 p-8 mx-3 mt-3 rounded-t-xl text-white text-center"
+     >
+       <h1 class="uppercase text-md mb-12">BASIC</h1>
+       <h2 class="text-5xl">100GB</h2>
+       <p class="mt-2 mb-9 text-sm">$1.99/Month</p>
+       <a
+         href="#"
+         class="inline-block border border-violet-600 hover:bg-violet-800 hover:border-violet-800 duration-200 px-10 py-3 rounded-lg mx-3 mb-4"
+         >Purchase</a
+       >
+     </div>
 
-    <!-- Boxes Container -->
-        <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mx-8">
-            <!-- Box Container 1 -->
-            <div class="bg-lightGray p-3 rounded-xl shadow shadow-slate-800"> 
-                <div class="bg-slate-800 px-10 pt-9 pb-8 rounded-t-xl">
-                    <!-- Top Section -->
-                    <div class="text-white text-center">
-                        <h1 class="uppercase text-md mb-12">BASIC</h1>
-                        <h2 class="text-5xl">100GB</h2>
-                        <p class="mt-2 mb-9 text-sm">$1.99/Month</p>
-                        <a href="#" class="inline-block border border-violet-600 hover:bg-violet-800 hover:border-violet-800 duration-200 px-10 py-3 rounded-lg mx-3 mb-4">Purchase</a>
-                    </div>
+     <!-- Border -->
+     <div class="border-t border-lightGray"></div>
 
-                </div>
+     <!-- Buttom Section -->
+     <div
+       class="bg-slate-800 text-white text-xs p-8 mx-3 mb-3 space-y-2 text-center rounded-b-xl"
+     >
+       <div class="flex justify-center items-center space-x-2">
+         <svg
+           xmlns="http://www.w3.org/2000/svg"
+           class="w-5 h-5"
+           viewBox="0 0 24 24"
+           stroke-width="2"
+           stroke="currentColor"
+           fill="none"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+         >
+           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+           <path d="M5 12l5 5l10 -10" />
+         </svg>
+         <p>100 GB of storage</p>
+       </div>
+       <div class="flex justify-center items-center space-x-2 mr-1">
+         <svg
+           xmlns="http://www.w3.org/2000/svg"
+           class="w-5 h-5"
+           viewBox="0 0 24 24"
+           stroke-width="2"
+           stroke="currentColor"
+           fill="none"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+         >
+           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+           <path d="M5 12l5 5l10 -10" />
+         </svg>
+         <p>Option to add members</p>
+       </div>
+       <div class="flex justify-center items-center space-x-2">
+         <svg
+           xmlns="http://www.w3.org/2000/svg"
+           class="w-5 h-5"
+           viewBox="0 0 24 24"
+           stroke-width="2"
+           stroke="currentColor"
+           fill="none"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+         >
+           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+           <path d="M5 12l5 5l10 -10" />
+         </svg>
+         <p>Extra member benefits</p>
+       </div>
+     </div>
+   </div>
 
-                    <!-- Border -->
-                    <div class="border-t border-lightGray"></div>
+   <!-- Box Container 2 -->
+   <div class="bg-violet-600 rounded-xl">
+     <!-- Top Section -->
+     <div
+       class="bg-slate-800 p-8 mx-3 mt-3 rounded-t-xl text-white text-center"
+     >
+       <h1 class="uppercase text-md mb-12">STANDARD</h1>
+       <h2 class="text-5xl">200GB</h2>
+       <p class="mt-2 mb-9 text-sm">$3.99/Month</p>
+       <a
+         href="#"
+         class="inline-block border border-violet-600 hover:bg-violet-800 hover:border-violet-800 duration-200 px-10 py-3 rounded-lg mx-3 mb-4"
+         >Purchase</a
+       >
+     </div>
+     <!-- Border -->
+     <div class="border-t border-lightGray"></div>
 
-                    <!-- Button Section -->
-                    <div class="bg-slate-800 text-white text-xs p-7 space-y-2 text-center rounded-b-xl">
-                        <div class="flex justify-center items-center space-x-2">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                            stroke-width="2"
-                            stroke="currentColor"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M5 12l5 5l10 -10" />
-                          </svg>
-                            <p>100 GB of storage</p>
-                        </div>
-                        <div class="flex justify-center items-center space-x-2 mr-1">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                            stroke-width="2"
-                            stroke="currentColor"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M5 12l5 5l10 -10" />
-                          </svg>
-                            <p>Option to add members</p>
-                        </div>
-                        <div class="flex justify-center items-center space-x-2">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                            stroke-width="2"
-                            stroke="currentColor"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M5 12l5 5l10 -10" />
-                          </svg>
-                            <p>Extra member benefits</p>
-                        </div>
-                    </div>
-                    
-                
-                
-            </div>
-        </div>
+     <!-- Buttom Section -->
+     <div
+       class="bg-slate-800 text-white text-xs p-8 mx-3 mb-3 space-y-2 text-center rounded-b-xl"
+     >
+       <div class="flex justify-center items-center space-x-2">
+         <svg
+           xmlns="http://www.w3.org/2000/svg"
+           class="w-5 h-5"
+           viewBox="0 0 24 24"
+           stroke-width="2"
+           stroke="currentColor"
+           fill="none"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+         >
+           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+           <path d="M5 12l5 5l10 -10" />
+         </svg>
+         <p>200 GB of storage</p>
+       </div>
+       <div class="flex justify-center items-center space-x-2 mr-1">
+         <svg
+           xmlns="http://www.w3.org/2000/svg"
+           class="w-5 h-5"
+           viewBox="0 0 24 24"
+           stroke-width="2"
+           stroke="currentColor"
+           fill="none"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+         >
+           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+           <path d="M5 12l5 5l10 -10" />
+         </svg>
+         <p>Option to add members</p>
+       </div>
+       <div class="flex justify-center items-center space-x-2">
+         <svg
+           xmlns="http://www.w3.org/2000/svg"
+           class="w-5 h-5"
+           viewBox="0 0 24 24"
+           stroke-width="2"
+           stroke="currentColor"
+           fill="none"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+         >
+           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+           <path d="M5 12l5 5l10 -10" />
+         </svg>
+         <p>Extra member benefits</p>
+       </div>
+     </div>
+   </div>
+
+   <!-- Box Container 3 -->
+   <div class="bg-lightGray rounded-xl">
+     <!-- Top Section -->
+     <div
+       class="bg-slate-800 p-8 mx-3 mt-3 rounded-t-xl text-white text-center"
+     >
+       <h1 class="uppercase text-md mb-12">PREMIUM</h1>
+       <h2 class="text-5xl">2 TB</h2>
+       <p class="mt-2 mb-9 text-sm">$8.99/Month</p>
+       <a
+         href="#"
+         class="inline-block border border-violet-600 hover:bg-violet-800 hover:border-violet-800 duration-200 px-10 py-3 rounded-lg mx-3 mb-4"
+         >Purchase</a
+       >
+     </div>
+
+     <!-- Border -->
+     <div class="border-t border-lightGray"></div>
+
+     <!-- Buttom Section -->
+     <div
+       class="bg-slate-800 text-white text-xs p-8 mx-3 mb-3 space-y-2 text-center rounded-b-xl"
+     >
+       <div class="flex justify-center items-center space-x-2">
+         <svg
+           xmlns="http://www.w3.org/2000/svg"
+           class="w-5 h-5"
+           viewBox="0 0 24 24"
+           stroke-width="2"
+           stroke="currentColor"
+           fill="none"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+         >
+           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+           <path d="M5 12l5 5l10 -10" />
+         </svg>
+         <p>2 TB of storage</p>
+       </div>
+       <div class="flex justify-center items-center space-x-2 mr-1">
+         <svg
+           xmlns="http://www.w3.org/2000/svg"
+           class="w-5 h-5"
+           viewBox="0 0 24 24"
+           stroke-width="2"
+           stroke="currentColor"
+           fill="none"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+         >
+           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+           <path d="M5 12l5 5l10 -10" />
+         </svg>
+         <p>Option to add members</p>
+       </div>
+       <div class="flex justify-center items-center space-x-2">
+         <svg
+           xmlns="http://www.w3.org/2000/svg"
+           class="w-5 h-5"
+           viewBox="0 0 24 24"
+           stroke-width="2"
+           stroke="currentColor"
+           fill="none"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+         >
+           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+           <path d="M5 12l5 5l10 -10" />
+         </svg>
+         <p>Extra member benefits</p>
+       </div>
+     </div>
+   </div>
+
+ </div>
+
   </body>
 </html>
