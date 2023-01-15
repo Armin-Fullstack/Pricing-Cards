@@ -2424,3 +2424,27 @@ video {
     }
   }
 }
+
+#box-container {
+	display: flex;
+	flex-wrap: nowrap !important;
+	flex-direction: row !important;
+	justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+	.box {
+		justify-content: center;
+		width: 30vw;
+	}
+}
+
+@media (max-width: 860px) {
+	#box-container {
+		flex-direction: column !important;
+	}
+
+	.box {
+		width: 100%;
+	}
+}
